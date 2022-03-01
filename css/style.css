@@ -13,20 +13,18 @@ body{
 
 .container{
   background-color: white;
+  border-radius: 10px;
   width: 70%;
   
   
 }
 
 .nav{
-  border-radius: 10px;
   padding: 20px 70px;
   margin: 50px auto auto;
 }
 
 .todolist{
-  height: 600px;
-  border-radius: 10px;
   padding: 70px ;
   margin: 5px auto auto;
   color: #444851;
@@ -71,6 +69,10 @@ hr{
   background-color: #f6f8f9;
 }
 
+.scroll-section{
+  margin-top: 45px;
+}
+
 .nav .button{
   padding: 10px 15px;
   border-radius: 3px;
@@ -93,16 +95,25 @@ hr{
   font-weight: bolder;
 }
 
-.cose-dafare{
+.symbol{
   width: 29px;
   height: 29px;
   display: inline-block;
   line-height: 23px;
   text-align: center;
-  border: 2px solid #7bcab7;
+  
   border-radius: 50%;
-  color: #7bcab7;
   font-weight: bolder;
+}
+
+.dafare{
+  color: red;
+  border: 2px solid red;
+}
+
+.fatte{
+  color: #7bcab7;
+  border: 2px solid #7bcab7;
 }
 
 .button-list{
