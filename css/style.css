@@ -33,37 +33,41 @@ body{
 }
 
 .list-item{
-  margin: 10px;
+  margin: 10px 15px;
 }
 
 .cose-dafare{
-  border: 1px solid black;
+  border: 2px solid #7bcab7;
   padding: 0.5%;
   border-radius: 50%;
+  color: #7bcab7;
+  font-weight: bolder;
 }
 
 /* HEADER */
 
 header{
   background-color: white;
-  height: 100px;
+  height: 110px;
 }
 
 .intestazione{
   width: 95%;
-  padding-left: 30px;
+  padding-left: 40px;
+  line-height: 110px;
 }
 
 #logo{
   width: 85px;
-  vertical-align: ;
+  vertical-align: middle;
 
 }
 
-h1{
-  display: inline-block;
+#logo-text{
   font-size: 70px;
   line-height: 100px;
+  vertical-align: middle;
+  font-weight: bold;
   
 }
 
@@ -84,6 +88,10 @@ hr{
   color: white;
 }
 
+.button-list{
+
+}
+
 .section.button{
   background-color: white;
   color: gray;
@@ -93,4 +101,8 @@ hr{
 .testo-scroll{
   font-size: 2rem;
   font-weight: bolder;
+}
+
+.button-list{
+  padding: 15px;
 }
