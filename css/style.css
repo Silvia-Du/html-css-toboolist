@@ -95,6 +95,12 @@ hr{
   font-weight: bolder;
 }
 
+.list-text{
+  margin-left: 10px;
+  
+  font-size: 23px;
+}
+
 .symbol{
   width: 29px;
   height: 29px;
@@ -116,13 +122,33 @@ hr{
   border: 2px solid #7bcab7;
 }
 
-.button-list{
+.list-button{
   color: white;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 18%;
-  
-  font-size: 10px;
+  font-size: 12px;
 }
+
 .editorial{
+  background-color: #45abea;
+}
+
+.mobile{
+  background-color: #f29e33;
+}
+
+.recruiting{
+  background-color: #64c0a9;
+}
+
+.goals{
+  background-color: #9c72e4;
+}
+
+.website{
   background-color: #d863a1;
+}
+
+.sales{
+  background-color: #b0c926;
 }
