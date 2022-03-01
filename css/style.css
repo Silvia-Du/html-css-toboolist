@@ -8,6 +8,38 @@
 
 body{
   background-color: #f6f8f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  background-color: white;
+  width: 70%;
+  
+  
+}
+
+.nav{
+  border-radius: 10px;
+  padding: 20px 70px;
+  margin: 50px auto auto;
+}
+
+.todolist{
+  height: 600px;
+  border-radius: 10px;
+  padding: 70px ;
+  margin: 5px auto auto;
+  color: #444851;
+}
+
+.list-item{
+  margin: 10px;
+}
+
+.cose-dafare{
+  border: 1px solid black;
+  padding: 0.5%;
+  border-radius: 50%;
 }
 
 /* HEADER */
@@ -32,12 +64,33 @@ h1{
   display: inline-block;
   font-size: 70px;
   line-height: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
-
-
-
-
-
 /* MAIN */
+
+hr{
+  background-color: #f6f8f9;
+}
+
+.nav .button{
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 0;
+}
+
+.task{
+  background-color:#45abea;
+  color: white;
+}
+
+.section.button{
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.testo-scroll{
+  font-size: 2rem;
+  font-weight: bolder;
+}
