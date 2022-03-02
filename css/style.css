@@ -13,6 +13,20 @@ body{
 
 /* HEADER */
 
+header{
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.logo{
+  vertical-align: middle;
+}
+
+.logo-text{
+  font-size: 40px;
+  font-weight: 800;
+  vertical-align: middle;
+}
 
 
 /* MAIN */
