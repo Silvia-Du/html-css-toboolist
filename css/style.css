@@ -21,7 +21,31 @@ body{
 
 .div-top{
   border-bottom: 2px solid #6ea0b9;
-  padding:20px 30px;
+  padding:20px 50px;
+}
+.div-bottom{
+  padding: 50px;
+}
+
+ul{
+  list-style: none;
+}
+
+.circle::before{
+  content: 'x';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #47adf1;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  border-radius: 50%;
+}
+
+.circle.da-fare::before{
+  border: 1px solid red;
+  color: red;
 }
 
 /* HEADER */
@@ -50,6 +74,7 @@ header{
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-top.task{
@@ -63,3 +88,14 @@ header{
   color: #d4d8dc;
   border: 1px solid #d4d8dc;
 }
+
+.div-bottom h3::before{
+  content: '\25be';
+}
+
+.div-bottom li{
+  padding: 10px 0;
+}
+
+
+
